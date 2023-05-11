@@ -12,6 +12,10 @@ public class Test_block {
 	Test_block(int a)
 	{
 		System.out.println("1-arg constructor");
+		System.out.println("1-arg constructor1");
+		System.out.println("1-arg constructor2");
+		
+		
 	}
 	
 	static {
