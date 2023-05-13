@@ -29,6 +29,15 @@ public class Test_block {
 		
 	}
 	
+	Test_block(int a,int b,int c)
+	{
+		System.out.println("1-arg constructor");
+		System.out.println("1-arg constructor1");
+		System.out.println("1-arg constructor2");
+		
+		
+	}
+	
 	static {
 		System.out.println("static- block");
 	}
@@ -45,6 +54,7 @@ public class Test_block {
            new 	Test_block();
            new 	Test_block(10);
            new 	Test_block(10,20);
+           new 	Test_block(10,20,30);
            
            }
 
